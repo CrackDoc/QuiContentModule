@@ -7,7 +7,7 @@
 #include "PublicMarco.h"
 namespace Ui
 {
-	class QuiContentModuleClass;
+	class QuiContentModule;
 }
 class CQuiContentModule : public QWidget,public IQuiContentModule
 {
@@ -72,7 +72,7 @@ public:
 	*/
 	virtual bool Uninitialise();
 private:
-    Ui::QuiContentModuleClass *ui;
+    Ui::QuiContentModule *ui;
 };
 DECLARE_MODULE(QuiContent, extern)
 #endif // QuiContentModule_h__

@@ -3,7 +3,7 @@
 
 CQuiContentModule::CQuiContentModule(QWidget *parent)
     : QWidget(parent)
-	,ui(new Ui::QuiContentModuleClass)
+	,ui(new Ui::QuiContentModule)
 {
     ui->setupUi(this);
 }

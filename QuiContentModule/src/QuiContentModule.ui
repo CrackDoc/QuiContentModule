@@ -1,6 +1,6 @@
 <UI version="4.0" >
- <class>QuiContentModuleClass</class>
- <widget class="QWidget" name="QuiContentModuleClass" >
+ <class>QuiContentModule/class>
+ <widget class="QWidget" name="QuiContentModule" >
   <property name="objectName" >
    <string notr="true">QuiContentModule</string>
   </property>
